@@ -1,7 +1,7 @@
 name: SFDX-CLI Deploy from Branch
 
 on:
-  push:
+  pull:
     branches: [ $default-branch ]
   pull_request:
     branches: [ $default-branch ]
